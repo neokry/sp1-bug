@@ -1,0 +1,9 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "bug-program"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", rev = "1ed165e" }
+reth-primitives = { git = "https://github.com/sp1-patches/reth", default-features = false, branch = "sp1-reth" }
